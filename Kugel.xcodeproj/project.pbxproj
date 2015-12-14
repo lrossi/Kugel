@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82290E101C1ECADA002C3F81 /* Kugel_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82290E061C1ECAD9002C3F81 /* Kugel_tvOS.framework */; };
+		82290E1D1C1ECB20002C3F81 /* Kugel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C035C26C1B4F9E61005E331C /* Kugel.swift */; };
+		82290E1F1C1ECB73002C3F81 /* Kugel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C035C26C1B4F9E61005E331C /* Kugel.swift */; };
+		82290E201C1ECB75002C3F81 /* KugelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C035C2621B4F9E56005E331C /* KugelTests.swift */; };
 		C035C2561B4F9E56005E331C /* Kugel.h in Headers */ = {isa = PBXBuildFile; fileRef = C035C2551B4F9E56005E331C /* Kugel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C035C25C1B4F9E56005E331C /* Kugel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C035C2501B4F9E56005E331C /* Kugel.framework */; };
 		C035C2631B4F9E56005E331C /* KugelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C035C2621B4F9E56005E331C /* KugelTests.swift */; };
@@ -15,6 +19,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		82290E111C1ECADA002C3F81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C035C2471B4F9E56005E331C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82290E051C1ECAD9002C3F81;
+			remoteInfo = Kugel_tvOS;
+		};
 		C035C25D1B4F9E56005E331C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C035C2471B4F9E56005E331C /* Project object */;
@@ -25,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		82290E061C1ECAD9002C3F81 /* Kugel_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kugel_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82290E0F1C1ECADA002C3F81 /* Kugel_tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kugel_tvOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C035C2501B4F9E56005E331C /* Kugel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kugel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C035C2541B4F9E56005E331C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C035C2551B4F9E56005E331C /* Kugel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Kugel.h; sourceTree = "<group>"; };
@@ -35,6 +48,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		82290E021C1ECAD9002C3F81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82290E0C1C1ECADA002C3F81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82290E101C1ECADA002C3F81 /* Kugel_tvOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C035C24C1B4F9E56005E331C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -67,6 +95,8 @@
 			children = (
 				C035C2501B4F9E56005E331C /* Kugel.framework */,
 				C035C25B1B4F9E56005E331C /* KugelTests.xctest */,
+				82290E061C1ECAD9002C3F81 /* Kugel_tvOS.framework */,
+				82290E0F1C1ECADA002C3F81 /* Kugel_tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,6 +139,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		82290E031C1ECAD9002C3F81 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C035C24D1B4F9E56005E331C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -120,6 +157,42 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		82290E051C1ECAD9002C3F81 /* Kugel_tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82290E1B1C1ECADA002C3F81 /* Build configuration list for PBXNativeTarget "Kugel_tvOS" */;
+			buildPhases = (
+				82290E011C1ECAD9002C3F81 /* Sources */,
+				82290E021C1ECAD9002C3F81 /* Frameworks */,
+				82290E031C1ECAD9002C3F81 /* Headers */,
+				82290E041C1ECAD9002C3F81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kugel_tvOS;
+			productName = Kugel_tvOS;
+			productReference = 82290E061C1ECAD9002C3F81 /* Kugel_tvOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		82290E0E1C1ECADA002C3F81 /* Kugel_tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82290E1C1C1ECADA002C3F81 /* Build configuration list for PBXNativeTarget "Kugel_tvOSTests" */;
+			buildPhases = (
+				82290E0B1C1ECADA002C3F81 /* Sources */,
+				82290E0C1C1ECADA002C3F81 /* Frameworks */,
+				82290E0D1C1ECADA002C3F81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82290E121C1ECADA002C3F81 /* PBXTargetDependency */,
+			);
+			name = Kugel_tvOSTests;
+			productName = Kugel_tvOSTests;
+			productReference = 82290E0F1C1ECADA002C3F81 /* Kugel_tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		C035C24F1B4F9E56005E331C /* Kugel */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C035C2661B4F9E56005E331C /* Build configuration list for PBXNativeTarget "Kugel" */;
@@ -162,10 +235,16 @@
 		C035C2471B4F9E56005E331C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Scoop, Inc.";
 				TargetAttributes = {
+					82290E051C1ECAD9002C3F81 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					82290E0E1C1ECADA002C3F81 = {
+						CreatedOnToolsVersion = 7.2;
+					};
 					C035C24F1B4F9E56005E331C = {
 						CreatedOnToolsVersion = 6.4;
 					};
@@ -188,11 +267,27 @@
 			targets = (
 				C035C24F1B4F9E56005E331C /* Kugel */,
 				C035C25A1B4F9E56005E331C /* KugelTests */,
+				82290E051C1ECAD9002C3F81 /* Kugel_tvOS */,
+				82290E0E1C1ECADA002C3F81 /* Kugel_tvOSTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		82290E041C1ECAD9002C3F81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82290E0D1C1ECADA002C3F81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C035C24E1B4F9E56005E331C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -210,6 +305,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		82290E011C1ECAD9002C3F81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82290E1D1C1ECB20002C3F81 /* Kugel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82290E0B1C1ECADA002C3F81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82290E1F1C1ECB73002C3F81 /* Kugel.swift in Sources */,
+				82290E201C1ECB75002C3F81 /* KugelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C035C24B1B4F9E56005E331C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -230,6 +342,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		82290E121C1ECADA002C3F81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82290E051C1ECAD9002C3F81 /* Kugel_tvOS */;
+			targetProxy = 82290E111C1ECADA002C3F81 /* PBXContainerItemProxy */;
+		};
 		C035C25E1B4F9E56005E331C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C035C24F1B4F9E56005E331C /* Kugel */;
@@ -238,6 +355,70 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		82290E171C1ECADA002C3F81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Kugel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.takescoop.Kugel-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		82290E181C1ECADA002C3F81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Kugel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.takescoop.Kugel-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		82290E191C1ECADA002C3F81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = KugelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.takescoop.Kugel-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		82290E1A1C1ECADA002C3F81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KugelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.takescoop.Kugel-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
 		C035C2641B4F9E56005E331C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -398,6 +579,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		82290E1B1C1ECADA002C3F81 /* Build configuration list for PBXNativeTarget "Kugel_tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82290E171C1ECADA002C3F81 /* Debug */,
+				82290E181C1ECADA002C3F81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		82290E1C1C1ECADA002C3F81 /* Build configuration list for PBXNativeTarget "Kugel_tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82290E191C1ECADA002C3F81 /* Debug */,
+				82290E1A1C1ECADA002C3F81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		C035C24A1B4F9E56005E331C /* Build configuration list for PBXProject "Kugel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
